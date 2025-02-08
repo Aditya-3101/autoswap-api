@@ -1,14 +1,15 @@
 {
   "dependencies": {
-    "json-server": "^0.17.4"
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
   },
   "name": "autoswap_api",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve-json": "json-server --watch db.json"
+    "serve-json": "json-server --watch db.json",
+    "vercel-build":"echo done!"
   },
   "keywords": [],
   "author": "",
